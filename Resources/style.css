@@ -141,3 +141,43 @@ body {
 .content-center img {
   margin-top: 2em;
 }
+
+.tour-row {
+  border-bottom: 2px solid white;
+  margin: 1em;
+  padding: 1em;
+}
+
+.tour-row:first-child {
+  border-top: 2px solid white;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+.tour-date {
+  color: white;
+  font-weight: bold;
+  width: 11%;
+}
+.tour-city {
+  width: 24%;
+}
+.tour-arena {
+  width: 42%;
+}
+.tour-btn {
+  max-width: 19%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-width: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.2em;
+}
+.tour-btn:hover {
+  opacity: 0.6;
+}
