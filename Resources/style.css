@@ -86,3 +86,8 @@ body {
   text-align: left;
   font-size: 2.2em;
 }
+.about-band-image {
+  float: left;
+  width: 300px;
+  margin: 15px;
+}
