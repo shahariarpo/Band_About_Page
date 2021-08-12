@@ -103,19 +103,41 @@ body {
 .main-footer {
   background-color: black;
   color: white;
-  padding: 0.25em 0;
 }
 
-.main-footer-container {
+.main-footer .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.main-footer-container {
-  flex-grow: 1;
-  text-align: end;
+.social {
+  margin: 0px;
+  padding: 0px;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.9em;
+  border-radius: 0;
+  border-width: 2px;
+  border-color: white;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
 }
 
-.footer-nav {
-  padding: 0 0.5em;
+.btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.content-center img {
+  margin-top: 2em;
 }
