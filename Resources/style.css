@@ -84,7 +84,7 @@ body {
   font-family: raleway;
   font-weight: normal;
   color: white;
-  text-align: left;
+  text-align: center;
   font-size: 2.2em;
 }
 .about-band-image {
@@ -182,13 +182,6 @@ body {
   opacity: 0.6;
 }
 
-.music-header {
-  font-family: raleway;
-  font-weight: normal;
-  color: white;
-  text-align: center;
-  font-size: 2.2em;
-}
 .shop-item {
   margin: 30px;
 }
@@ -228,10 +221,78 @@ body {
 .shop-button:hover {
   opacity: 0.6;
 }
+
 .cart-header {
-  font-family: raleway;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.2em;
   color: white;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-row {
+  display: flex;
+}
+.cart-item {
+  width: 45%;
+}
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: white;
+}
+.cart-quantity {
+  width: 35%;
+}
+.cart-item-title {
+  color: white;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+.cart-item-image {
+  border-radius: 2px;
+}
+.cart-quantity-input {
+  height: 30px;
+  width: 65px;
+  border-radius: 2px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 0;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+.cart-row:last-child {
+  border-bottom: 2px solid white;
+}
+.cart-row:last-child .cart-column {
+  border: none;
+}
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.cart-total-title {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+.cart-total-price {
+  font-size: 1.1em;
+  color: white;
+}
+.purchase-btn {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.8em;
 }

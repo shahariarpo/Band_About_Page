@@ -22,7 +22,7 @@
       <h1 class="band-name band-name-large">LINKIN PARK</h1>
     </header>
     <section class="content-section container">
-      <h2 class="music-header">MUSIC</h2>
+      <h2 class="section-header">MUSIC</h2>
       <div class="shop-items">
         <div class="shop-item">
           <span class="item-title">HYBRID THEORY</span>
@@ -76,7 +76,7 @@
     </section>
 
     <section class="container content-section">
-      <h2 class="music-header">MERCH</h2>
+      <h2 class="section-header">MERCH</h2>
       <div class="shop-items">
         <div class="shop-item">
           <span class="item-title">Hoodies</span>
@@ -108,34 +108,56 @@
     </section>
 
     <section class="container content-section">
-      <h2 class="cart-header">CART</h2>
-      <div>
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
         <span class="cart-header cart-item cart-column">ITEM</span>
         <span class="cart-header cart-price cart-column">PRICE</span>
         <span class="cart-header cart-quantity cart-column">QUANTITY</span>
       </div>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="/Resources/Images/hoodie.jpg"
+              alt=""
+              width="100"
+            />
+            <span class="cart-item-title">Hoodies</span>
+          </div>
+          <span class="cart-price cart-column">$29.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="shop-button cart-remove-button" type="button">
+              Remove
+            </button>
+          </div>
+        </div>
 
-      <div>
-        <img src="/Resources/Images/hoodie.jpg" alt="" width="100" />
-        <span>Hoodies</span>
-        <input type="number" value="1" />
-        <button type="button">REMOVE</button>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="/Resources/Images/hat.jpg"
+              alt=""
+              width="100"
+            />
+            <span class="cart-item-title">Hats</span>
+          </div>
+          <span class="cart-price cart-column">$12.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="shop-button cart-remove-button" type="button">
+              Remove
+            </button>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <img src="/Resources/Images/hat.jpg" alt="" width="100" />
-        <span>Hats</span>
-        <input type="number" value="1" />
-        <button type="button">REMOVE</button>
+      <div class="cart-total">
+        <span class="cart-total-title">Total</span>
+        <span class="cart-total-price">$42.98</span>
       </div>
-      <hr />
-      <div>
-        <strong>Total</strong>
-        <span>$42.98</span>
-      </div>
-      <div>
-        <button type="button">PURCHASE</button>
-      </div>
+      <button class="shop-button purchase-btn" type="button">Purchase</button>
     </section>
 
     <footer>
